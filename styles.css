@@ -1,0 +1,17 @@
+
+body {
+    font-family: Arial, sans-serif;
+}
+.cell {
+    stroke: #fff;
+    stroke-width: 0.5;
+}
+#tooltip {
+    position: absolute;
+    opacity: 0;
+    background-color: white;
+    border: 1px solid #ddd;
+    padding: 5px;
+    pointer-events: none;
+    transition: opacity 0.2s;
+}
